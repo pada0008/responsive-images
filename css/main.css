@@ -1,0 +1,52 @@
+/*
+All images used belong to:
+
+Markus Spiske - https://500px.com/markusspiske (Links to an external site.) 
+
+Yinan Chen - https://500px.com/webmaster85 (Links to an external site.) 
+
+Fahim Akhter - https://500px.com/fahimakhter (Links to an external site.) 
+*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+li {
+    width: 100%;
+    list-style: none;
+}
+
+img{
+   max-width: 90%;
+    display: block;
+}
+
+
+@media screen and (min-width: 600px) {
+    li {
+        width: 50%;
+        float: left;
+    }
+    
+    img{
+        margin: 1rem auto;
+    }
+            
+}
+
+@media screen and (min-width: 1200px) {
+    li {
+         width: 25%;
+        float: right;
+        
+    }
+}
+
